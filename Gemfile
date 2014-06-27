@@ -13,6 +13,7 @@ group :production do
 	gem 'pg'	
 end
 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -21,6 +22,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
+gem 'zurb-foundation', '~> 4.0.0' 
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
